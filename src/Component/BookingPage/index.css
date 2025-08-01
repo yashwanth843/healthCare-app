@@ -1,0 +1,119 @@
+.booking-container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  font-family: Arial, sans-serif;
+}
+
+.doctor-card-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.doctor-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.specialization {
+  color: #2d9cdb;
+  margin: 5px 0;
+}
+
+.section-title {
+  font-weight: bold;
+  margin-top: 20px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.timeslot-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.time-btn {
+  padding: 10px 16px;
+  border: 1px solid #2d9cdb;
+  border-radius: 6px;
+  background: #fff;
+  color: #2d9cdb;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.time-btn:hover {
+  background: #f0f8ff;
+}
+
+.time-btn.selected {
+  background-color: #2d9cdb;
+  color: white;
+}
+
+.booking-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.confirm-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #2d9cdb;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.confirm-btn:hover {
+  background-color: #1a7bb8;
+}
+
+.error {
+  color: red;
+  font-size: 13px;
+  margin-top: -6px;
+  margin-bottom: 8px;
+}
+
+
+@media screen and (max-width: 480px) {
+  .booking-container {
+    margin: 10px;
+    padding: 15px;
+  }
+
+  .doctor-card-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .doctor-img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .time-btn {
+    flex: 1 1 40%;
+    text-align: center;
+  }
+}
+

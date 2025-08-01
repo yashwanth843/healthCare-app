@@ -1,0 +1,46 @@
+.confirmation-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5faff;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.confirmation-card {
+  background-color: #fff;
+  padding: 32px 24px;
+  border-radius: 12px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+  max-width: 480px;
+  width: 100%;
+  text-align: center;
+}
+
+.confirmation-title {
+  font-size: 24px;
+  color: #2d9cdb;
+  margin-bottom: 20px;
+}
+
+.confirmation-text {
+  font-size: 16px;
+  color: #333;
+  margin: 10px 0;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .confirmation-card {
+    padding: 20px 16px;
+  }
+
+  .confirmation-title {
+    font-size: 20px;
+  }
+
+  .confirmation-text {
+    font-size: 14px;
+  }
+}

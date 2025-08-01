@@ -1,0 +1,112 @@
+.profile-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.05);
+  border-radius: 12px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
+  border: 3px solid #2d9cdb;
+}
+
+
+.doctor-name {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 6px;
+}
+
+.doctor-specialization {
+  font-size: 16px;
+  color: #2d9cdb;
+  margin-bottom: 16px;
+}
+
+
+.doctor-bio {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+
+.book-button {
+  padding: 10px 20px;
+  background-color: #2d9cdb;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.book-button:hover {
+  background-color: #1b7cb3;
+}
+
+
+.error-text {
+  text-align: center;
+  color: red;
+  font-size: 16px;
+  margin-top: 40px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .profile-container {
+    margin: 20px 16px;
+    padding: 16px;
+  }
+
+  .doctor-name {
+    font-size: 20px;
+  }
+
+  .doctor-specialization {
+    font-size: 14px;
+  }
+
+  .doctor-bio {
+    font-size: 13px;
+  }
+
+  .book-button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+
+@media screen and (min-width: 1200px) {
+  .profile-container {
+    max-width: 700px;
+    padding: 30px;
+  }
+
+  .profile-image {
+    width: 140px;
+    height: 140px;
+  }
+
+  .doctor-name {
+    font-size: 26px;
+  }
+
+  .book-button {
+    font-size: 17px;
+  }
+}
