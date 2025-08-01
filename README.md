@@ -86,5 +86,5 @@ Creating reusable doctor cards and clean filtering logic
 
 Validating forms with good user experience
 
-Made with 💙 by Desetti Yashwanth
+Made with 💙 by Desetti Yashwanth.
 
